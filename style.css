@@ -7,4 +7,26 @@ body {
     "main aside"
     "footer footer";
 }
+/* HEADER */
+
+header {
+    grid-area: header;
+}
+
+/* MAIN */
+
+main {
+    grid-area: main;
+}
+
+/* ASIDE */
+
+aside {
+    grid-area: aside;
+}
+
+/* FOOTER */
+
+footer {
+    grid-area: footer;
 }
