@@ -1,3 +1,33 @@
 body {
     display: grid;
 }
+
+header {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "logo nav nav nav nav";
+}
+
+.section-one {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "1a 1b"
+    "1b 1a";
+}
+
+.section-two {
+    grid-template-columns: 3fr 3fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "2a 2b 2c";
+}
+
+footer {
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 3fr 1fr;
+    grid-template-areas: 
+    "footer-nav contact"
+    "footer-nav social";
+}
