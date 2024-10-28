@@ -27,6 +27,7 @@ body {
 header {
     background-color: var(--background-head-foot);
     grid-area: header;
+    height: 10vh;
 }
 }
 
@@ -35,6 +36,7 @@ header {
 main {
     grid-area: main;
     background-color: var(--background-main);
+    height: 60vh;
 }
 
 /* ASIDE */
@@ -42,6 +44,7 @@ main {
 aside {
     grid-area: aside;
     background-color: var(--background-aside);
+    height: 60vh;
 }
 
 /* FOOTER */
@@ -49,4 +52,5 @@ aside {
 footer {
     grid-area: footer;
     background-color: var(--background-head-foot);
+    height: 30vh;
 }
