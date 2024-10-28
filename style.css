@@ -7,6 +7,9 @@
     --background-aside: #E0E0E0;
     /* TEXT */
     --text-primary: #141414;
+    --font-family-primary: "Poppins";
+    --font-wght-light: 400;
+    --font-wght-heavy: 700;
 }
 
 /* GLOBAL STYLES */
