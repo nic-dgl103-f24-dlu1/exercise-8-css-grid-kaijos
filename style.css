@@ -2,14 +2,21 @@ body {
     display: grid;
 }
 
+/* HEADER */
+
 header {
+    /* GRID PROPERTIES */
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 1fr;
     grid-template-areas: 
     "logo nav nav nav nav";
+    /* UI PROPERTIES */
 }
 
+/* SECTION ONE */
+
 .section-one {
+    /* GRID PROPERTIES */
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-template-areas: 
@@ -18,6 +25,7 @@ header {
 }
 
 .section-two {
+    /* GRID PROPERTIES */
     grid-template-columns: 3fr 3fr 1fr;
     grid-template-rows: 1fr;
     grid-template-areas:
@@ -25,6 +33,7 @@ header {
 }
 
 footer {
+    /* GRID PROPERTIES */
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 3fr 1fr;
     grid-template-areas: 
