@@ -34,6 +34,8 @@ header {
     /* FLEXBOX */
     display: flex;
 }
+img {
+    height: 50px;
 }
 
 /* MAIN */
