@@ -29,6 +29,11 @@ header {
     grid-area: header;
     height: 10vh;
 }
+
+.header-nav {
+    /* FLEXBOX */
+    display: flex;
+}
 }
 
 /* MAIN */
