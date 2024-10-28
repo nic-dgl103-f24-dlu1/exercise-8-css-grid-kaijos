@@ -1,14 +1,18 @@
 /* CUSTOM PROPERTIES */
 
 :root {
+    /* BG */
     --background-head-foot: #A5A5A5;
     --background-main: #F2F2F2;
     --background-aside: #E0E0E0;
+    /* TEXT */
+    --text-primary: #141414;
 }
 
 /* GLOBAL STYLES */
 
 body {
+    /* GRID */
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: repeat(3, auto);
@@ -16,6 +20,8 @@ body {
     "header header"
     "main aside"
     "footer footer";
+    /* FONT */
+    color: var(--text-primary);
 }
 
 * {
