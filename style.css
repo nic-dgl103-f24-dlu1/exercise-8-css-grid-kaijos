@@ -10,9 +10,16 @@
     --font-family-primary: "Poppins";
     --font-wght-light: 400;
     --font-wght-heavy: 700;
+    --font-size-primary: 1.6rem;
+    --font-size-head-one: 3.4rem;
+    --font-size-head-two: 3rem;
 }
 
 /* GLOBAL STYLES */
+
+html {
+    font-size: 62.5%;
+  }
 
 body {
     /* GRID */
