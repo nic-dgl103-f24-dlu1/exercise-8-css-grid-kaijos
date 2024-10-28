@@ -33,7 +33,15 @@ header {
 .header-nav {
     /* FLEXBOX */
     display: flex;
+    /* LAYOUT */
+    /* UI */
+    list-style-type: none;
 }
+
+.header-nav a {
+    text-decoration: none;
+}
+
 img {
     height: 50px;
 }
