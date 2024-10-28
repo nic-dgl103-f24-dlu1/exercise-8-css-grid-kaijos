@@ -1,10 +1,4 @@
 body {
     display: grid;
-}
-
-/* HEADER */
-
-header {
-    /* GRID PROPERTIES */
     grid-template-areas:
 }
