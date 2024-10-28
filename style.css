@@ -3,13 +3,17 @@ body {
 }
 
 header {
+    /* GRID DECLARATIONS */
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 1fr;
     grid-template-areas: 
     "logo nav nav nav nav";
+    /* STYLES */
+    list-style-type: none;
 }
 
 .section-one {
+    /* GRID DECLARATIONS */
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-template-areas: 
@@ -18,6 +22,7 @@ header {
 }
 
 .section-two {
+    /* GRID DECLARATIONS */
     grid-template-columns: 3fr 3fr 1fr;
     grid-template-rows: 1fr;
     grid-template-areas:
@@ -25,6 +30,7 @@ header {
 }
 
 footer {
+    /* GRID DECLARATIONS */
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 3fr 1fr;
     grid-template-areas: 
