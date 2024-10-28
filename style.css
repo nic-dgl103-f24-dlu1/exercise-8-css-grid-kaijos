@@ -10,6 +10,7 @@ body {
 /* HEADER */
 
 header {
+    background-color: #D5BDAF;
     grid-area: header;
 }
 
@@ -17,16 +18,19 @@ header {
 
 main {
     grid-area: main;
+    background-color: #F5EBE0;
 }
 
 /* ASIDE */
 
 aside {
     grid-area: aside;
+    background-color: #E3D5CA;
 }
 
 /* FOOTER */
 
 footer {
     grid-area: footer;
+    background-color: #D5BDAF;
 }
