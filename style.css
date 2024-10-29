@@ -18,12 +18,12 @@ html {
 body {
     /* GRID */
     display: grid;
-    grid-template-columns: 3fr 1fr 1fr;
+    grid-template-columns: 4fr 1fr;
     grid-template-rows: repeat(3, auto);
     grid-template-areas:
-    "header header header"
-    "main image aside"
-    "footer footer footer";
+    "header header"
+    "main aside"
+    "footer footer";
     gap: 1em;
     /* FONT */
     color: var(--text-primary);
@@ -75,14 +75,39 @@ header {
 /* MAIN */
 
 main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+    "h1 s3"
+    "s1 s3"
+    "s2 s3";
+    /*
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    */
     grid-area: main;
     background-color: var(--background-main);
     height: 70vh;
-    padding: 0 5vw;
+    padding-left: 5vw;
+}
+
+main h1 {
+    grid-area: h1;
+}
+
+.main-one {
+    grid-area: s1;
+}
+
+.main-two {
+    grid-area: s2;
+}
+
+.main-three {
+    grid-area: s3;
 }
 
 main ul {
@@ -93,13 +118,13 @@ main h2 {
     padding-bottom: 1vh;
 }
 
-/* MIDDLE COLUMN FIGURE */
+/* MIDDLE COLUMN FIGURE 
 
 .mid-column img {
     grid-area: image;
     height: 100%;
     width: 100%;
-}
+} */
 
 /* ASIDE */
 
