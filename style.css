@@ -137,3 +137,7 @@ footer {
     padding: 0 5vw;
 }
 
+footer ol, ul {
+    list-style-type: none;
+}
+
