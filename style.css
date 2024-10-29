@@ -81,7 +81,7 @@ main {
     flex-wrap: wrap;
     grid-area: main;
     background-color: var(--background-main);
-    height: 60vh;
+    height: 70vh;
     padding: 0 5vw;
 }
 
@@ -109,7 +109,7 @@ aside {
     flex-direction: column;
     justify-content: space-between;
     background-color: var(--background-aside);
-    height: 60vh;
+    height: 70vh;
 }
 
 .aside-item {
@@ -133,8 +133,8 @@ footer {
     display: flex;
     justify-content: space-between;
     background-color: var(--background-head-foot);
-    height: 30vh;
     padding: 0 5vw;
+    height: 20vh;
 }
 
 footer * {
