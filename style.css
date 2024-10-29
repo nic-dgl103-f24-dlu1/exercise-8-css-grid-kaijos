@@ -36,6 +36,10 @@ body {
     padding: 0;
 }
 
+a {
+    color: var(--text-primary);
+}
+
 /* HEADER */
 
 header {
@@ -64,7 +68,6 @@ header {
 }
 
 .header-nav a {
-    color: var(--text-primary);
     font-weight: 700;
     text-decoration: none;
 }
