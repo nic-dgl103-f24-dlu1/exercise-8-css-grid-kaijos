@@ -82,6 +82,10 @@ main {
     line-height: 3rem;
 }
 
+main ul {
+    padding-left: 2vw
+}
+
 /* MIDDLE COLUMN FIGURE */
 
 .mid-column img {
