@@ -78,6 +78,7 @@ main {
     background-color: var(--background-main);
     height: 60vh;
     padding: 0 5vw;
+    line-height: 3rem;
 }
 
 figure img {
