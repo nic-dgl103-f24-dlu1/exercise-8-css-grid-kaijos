@@ -45,6 +45,7 @@ header {
     height: 10vh;
     /* FLEXBOX */
     display: flex;
+    align-items: center;
     /* LAYOUT */
     /* UI */
     list-style-type: none;
