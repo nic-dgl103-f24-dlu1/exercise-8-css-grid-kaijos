@@ -24,6 +24,7 @@ body {
     "header header"
     "main aside"
     "footer footer";
+    gap: 1em;
     /* FONT */
     color: var(--text-primary);
     font: 400 1.6rem "Poppins", sans-serif;
