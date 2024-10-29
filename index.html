@@ -6,72 +6,99 @@
     <!-- STYLESHEET LINK -->
     <link rel="stylesheet" href="style.css" />
     <!-- GOOGLE FONT POPPINS — WEIGHT 400 & 700 -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
     <title>CSS Grid</title>
   </head>
   <body>
-    <header>      
+    <header>
       <nav>
         <ol class="header-nav">
-          <li><a href="#"><img src="images/img-square.png" alt="logo"></a></li>
+          <li>
+            <a href="#"><img src="images/img-square.png" alt="logo" /></a>
+          </li>
           <li><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Services</a></li>
           <li><a href="#">Contact</a></li>
         </ol>
       </nav>
-  </header>
-  <main>
-    <h1>Heading One</h1>
-    <section>
-      <h2>Heading Two</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed elit augue. Etiam id sollicitudin orci. Maecenas mollis erat ligula, at luctus neque ullamcorper semper. Integer gravida risus felis, in aliquam augue posuere eget. Nulla fermentum tincidunt felis, lacinia aliquet dolor. Etiam et finibus lectus. Pellentesque sodales sit amet nulla vitae consectetur. Donec tincidunt eget leo a pellentesque. Pellentesque sed dui tempus, mattis felis sit amet, posuere risus. Nunc porttitor pretium enim. Cras nunc ligula, bibendum at metus vel, feugiat pellentesque libero. Donec et justo non eros convallis dignissim.</p>
-    </section>
-    <section>
-      <h2>Heading Two</h2>
-      <ul>
-        <li>In fermentum sapien in mauris cursus, sit amet bibendum augue molestie.</li>
-        <li>Donec quis dui facilisis, laoreet turpis eget, viverra turpis.</li>
-        <li>Donec sodales sem in fermentum placerat.</li>
-        <li>Morbi varius justo quis ligula convallis, ac molestie augue ornare.</li>
-      </ul>
-    </section>
-  </main>
-  <!-- This figure is technically supposed to be inside main if I understood the assignment correctly, but I wanted it to sit to the right of the content and it seemed simpler to make it a grid item for layout purposes. -->
-  <figure class="mid-column">
-    <img src="images/img-square.png" alt="square">
-  </figure>
-  <aside>
-    <figure class="aside-item">
-      <img src="images/img-square.png" alt="square">
-      <figcaption>Caption</figcaption>
+    </header>
+    <main>
+      <h1>Heading One</h1>
+      <section>
+        <h2>Heading Two</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed elit
+          augue. Etiam id sollicitudin orci. Maecenas mollis erat ligula, at
+          luctus neque ullamcorper semper. Integer gravida risus felis, in
+          aliquam augue posuere eget. Nulla fermentum tincidunt felis, lacinia
+          aliquet dolor. Etiam et finibus lectus. Pellentesque sodales sit amet
+          nulla vitae consectetur. Donec tincidunt eget leo a pellentesque.
+          Pellentesque sed dui tempus, mattis felis sit amet, posuere risus.
+          Nunc porttitor pretium enim. Cras nunc ligula, bibendum at metus vel,
+          feugiat pellentesque libero. Donec et justo non eros convallis
+          dignissim.
+        </p>
+      </section>
+      <section>
+        <h2>Heading Two</h2>
+        <ul>
+          <li>
+            In fermentum sapien in mauris cursus, sit amet bibendum augue
+            molestie.
+          </li>
+          <li>
+            Donec quis dui facilisis, laoreet turpis eget, viverra turpis.
+          </li>
+          <li>Donec sodales sem in fermentum placerat.</li>
+          <li>
+            Morbi varius justo quis ligula convallis, ac molestie augue ornare.
+          </li>
+        </ul>
+      </section>
+    </main>
+    <!-- This figure is technically supposed to be inside main if I understood the assignment correctly, but I wanted it to sit to the right of the content and it seemed simpler to make it a grid item for layout purposes. -->
+    <figure class="mid-column">
+      <img src="images/img-square.png" alt="square" />
     </figure>
-    <article class="aside-item">
-      <h2>Heading Two</h2>
-      <p>Nulla vehicula quam ac sodales sollicitudin. Maecenas odio odio, faucibus et iaculis quis, varius id orci. Donec placerat tristique libero, et auctor ipsum rutrum et. Pellentesque vel efficitur libero.</p>
-    </article>
-    <a href="#" class="aside-item">Learn more</a>
-  </aside>
-  <footer>
-    <ul class="footer-social">
-      <li><img src="images/img-square.png" alt="Facebook"></li>
-      <li><img src="images/img-square.png" alt="Instagram"></li>
-      <li><img src="images/img-square.png" alt="TikTok"></li>
-    </ul>
-    <ol class="footer-list">
-      <li><h3>Navigation</h3></li>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Services</a></li>
-      <li><a href="#">Contact</a></li>
-    </ol>
-    <ol class="footer-list">
-      <li><h3>Contact</h3></li>
-      <li>ThisIsAnEmailAddress@yodelayheehoo.ca</li>
-      <li>250-123-4567</li>
-    </ol>
-  </footer>
+    <aside>
+      <figure class="aside-item">
+        <img src="images/img-square.png" alt="square" />
+        <figcaption>Caption</figcaption>
+      </figure>
+      <article class="aside-item">
+        <h2>Heading Two</h2>
+        <p>
+          Nulla vehicula quam ac sodales sollicitudin. Maecenas odio odio,
+          faucibus et iaculis quis, varius id orci. Donec placerat tristique
+          libero, et auctor ipsum rutrum et. Pellentesque vel efficitur libero.
+        </p>
+      </article>
+      <a href="#" class="aside-item">Learn more</a>
+    </aside>
+    <footer>
+      <ul class="footer-social">
+        <li><img src="images/img-square.png" alt="Facebook" /></li>
+        <li><img src="images/img-square.png" alt="Instagram" /></li>
+        <li><img src="images/img-square.png" alt="TikTok" /></li>
+      </ul>
+      <ol class="footer-list">
+        <li><h3>Navigation</h3></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ol>
+      <ol class="footer-list">
+        <li><h3>Contact</h3></li>
+        <li>ThisIsAnEmailAddress@yodelayheehoo.ca</li>
+        <li>250-123-4567</li>
+      </ol>
+    </footer>
   </body>
 </html>
