@@ -39,10 +39,10 @@ body {
 header {
     background-color: var(--background-head-foot);
     grid-area: header;
-    height: 10vh;
 }
 
 .header-nav {
+    height: 10vh;
     /* FLEXBOX */
     display: flex;
     /* LAYOUT */
