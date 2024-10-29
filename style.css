@@ -133,8 +133,8 @@ footer {
     display: flex;
     justify-content: space-between;
     background-color: var(--background-head-foot);
-    padding: 0 5vw;
     height: 20vh;
+    padding: 2vh 50vw 2vh 5vw;
 }
 
 footer * {
