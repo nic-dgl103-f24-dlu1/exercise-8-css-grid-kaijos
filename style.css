@@ -71,6 +71,9 @@ header {
 /* MAIN */
 
 main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     grid-area: main;
     background-color: var(--background-main);
     height: 60vh;
