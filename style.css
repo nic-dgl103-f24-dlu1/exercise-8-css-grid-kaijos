@@ -28,6 +28,7 @@ body {
     /* FONT */
     color: var(--text-primary);
     font: 400 1.6rem "Poppins", sans-serif;
+    line-height: 3rem;
 }
 
 * {
@@ -79,7 +80,6 @@ main {
     background-color: var(--background-main);
     height: 60vh;
     padding: 0 5vw;
-    line-height: 3rem;
 }
 
 main ul {
