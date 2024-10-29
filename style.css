@@ -102,6 +102,9 @@ main h2 {
 
 aside {
     grid-area: aside;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: var(--background-aside);
     height: 60vh;
 }
