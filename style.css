@@ -53,6 +53,14 @@ header {
     list-style-type: none;
 }
 
+.header-nav :first-child {
+    height: 10vh;
+}
+
+.header-nav img {
+    height: 10vh;
+}
+
 .header-nav a {
     color: var(--text-primary);
     font-weight: 700;
