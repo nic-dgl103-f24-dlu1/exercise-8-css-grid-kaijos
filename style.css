@@ -83,7 +83,11 @@ main {
 }
 
 main ul {
-    padding-left: 2vw
+    padding-left: 2vw;
+}
+
+main h2 {
+    padding-bottom: 1vh;
 }
 
 /* MIDDLE COLUMN FIGURE */
