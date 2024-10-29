@@ -74,6 +74,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     grid-area: main;
     background-color: var(--background-main);
     height: 60vh;
